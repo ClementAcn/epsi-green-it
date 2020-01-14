@@ -1,3 +1,1 @@
-<script>
-	alert('initial');
-</script> 
+alert('initial'); 
