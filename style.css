@@ -1,5 +1,9 @@
-body {
+html, body {
 	margin: 0;
+	
+	display: table;
+	height: 100%;
+	width: 100%;
 }
 
 ul {
@@ -24,4 +28,14 @@ li a {
 
 li a:hover {
 	background-color: rgb(206, 250, 209);
+}
+
+.container {
+	height:auto;
+}
+
+footer {
+	display: table-row;
+	height: 1px;
+	background-color: rgb(97, 209, 103);
 }
